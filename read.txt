@@ -1,0 +1,28 @@
+These are the steps to run the project
+first:
+what to install 
+
+pip install requests 
+
+pip install BeautifulSoup4
+
+pip install selenium 
+
+pip install undetected-chromedriver
+
+pip install webdriver-manager
+
+pip install pandas
+
+pip install openpyxl
+
+pip install xlsxwriter
+
+pip install lxml
+
+second : Now info files which has all import statements is ready you can use scripts now.
+to scrape from each site individually use it's own script and u hash the last line (Ex :swsg_scraping("https://swsg.co/ar/air-conditions.html?page=1"))
+to scrape all sites one after the other automatically use scraping py file but first hash the last line in each script of the five 
+Ex:# swsg_scraping("https://swsg.co/ar/air-conditions.html?page=1")
+
+if you scraped only one site and you want to merge it with excel files of other sites scraped before un hash (mergingfiles())
